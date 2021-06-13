@@ -1,0 +1,17 @@
+nav a.navbar-brand img {
+    width: 200px;
+}
+
+.mojelogo {
+
+ max-width: 40px;
+    border: 5px solid crimson;
+}
+.tecky {
+    float: left;
+}
+.bg-info1 {
+    background-color: rgba(166, 159, 235, 0.72) !important;
+}
+
+

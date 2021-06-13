@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>historiky kviz </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="co obsahuje táto stránka">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="css/muj.css">-->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+        <a class="navbar-brand" href="img/logo1.jpg">logo</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">základy</a>
+                    <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="rozdeleni.html" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">rozdělení</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="minivolejbal.html"> Minivolejbal</a>
+                        <a class="dropdown-item" href="#">Volejbalové debly</a>
+                        <a class="dropdown-item" href="#"> Plážový volejbal</a>
+                        <a class="dropdown-item" href="#">Smíšený volejbal</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="zajimavosti.html">zajímavosti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron-fluid p-3 bg-danger text-center">
+        <h1 class="dislay-2 text-white">historický kvíz </h1>
+        <p>otestuj se</p>
+
+    </header>
+    <main class="container"></main>
+    <!--formulářový prvek input text-->
+
+    <form action=" " method="POST">
+        <p class="alert alert-warning otazka">1. která listina byla vydána v roce 1212</p>
+        <div class="form-group row">
+            <p class="alert alert-success odpoved colapse">zltá bula sicilská</p>
+            <hr>
+            <label for="listina" class="col-sm-3 col-form-label">slavná listina</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="listina" id="listina" placeholder="zadejte tři slova">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <button type="button" class="btn btn-primary" data-toggle="cillapse" data-target="odpoved">vyhodnotit
+                    kvíz</button>
+            </div>
+        </div>
+    </form>
+
+    <form action=" " method="POST">
+        <p class="alert alert-warning otazka">1. která listina byla vydána v roce 1212</p>
+        <div class="form-group row">
+            <p class="alert alert-success odpoved colapse">zltá bula sicilská</p>
+            <hr>
+            <label for="listina" class="col-sm-3 col-form-label">slavná listina</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="listina" id="listina" placeholder="zadejte tři slova">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <button type="button" class="btn btn-primary" data-toggle="cillapse" data-target="odpoved">vyhodnotit
+                    kvíz</button>
+            </div>
+        </div>
+    </form>
+
+
+    </main>
+
+    <footer class="bg-dark container-fluid p3">
+        <!-- responzivni sloupcova vazba -->
+
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap4/holder/holder.min.js"></script>
+    <script>
+        Holder.addTheme("dark", {
+            bg: "#222",
+            fg: "#aaa",
+            size: 12,
+            font: "Arial",
+            fontweight: "normal"
+        });
+        Holder.addTheme("pink", {
+            bg: "violet",
+            fg: "white",
+            size: 12,
+            font: "FontAwesome",
+            fontweight: "bold"
+        });
+
+    </script>
+</body>
+
+</html>
